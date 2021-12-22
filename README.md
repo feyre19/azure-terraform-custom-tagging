@@ -13,7 +13,7 @@ No providers.
 ```hcl
 
 module "tlz-tagging" {
-  source                   = "https://github.com/feyre19/terraform-custom-tagging"
+  source                   = "git::https://github.com/feyre19/terraform-custom-tagging"
   environment              = var.environment
   monitoring               = var.monitoring
   patching                 = var.patching
